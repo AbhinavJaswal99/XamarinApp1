@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+	<android.support.v7.widget.CardView
+       android:layout_height="match_parent"
+		android:layout_width="match_parent"  
+		 android:layout_margin="25dp"
+		 app:cardBackgroundColor="@color/material_grey_100"
+		  app:cardCornerRadius="10dp"
+		android:layout_marginTop="10dp">
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:text="Name"
+					android:textColor="#333333"/>
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+							 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:id="@+id/txtname1"
+				android:textColor="#333333"
+				 android:layout_marginRight="5dp"/>
+			</LinearLayout>
+		<LinearLayout
+			   android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+	 <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	 android:text="Store_Name"
+	android:textColor="#ff0000"/>
+			<TextView
+		 android:layout_width="match_parent"
+    android:layout_height="match_parent"
+		android:id="@+id/txtstore_name2"/>
+			</LinearLayout>
+		<LinearLayout
+			   android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+	<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	 android:text="Address"
+	android:textColor="#ff0000"/>
+			<TextView
+		 android:layout_width="match_parent"
+    android:layout_height="match_parent"
+		android:id="@+id/txtaddress3"/>
+			</LinearLayout>
+		<LinearLayout
+			   android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+	<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	 android:text="City_St_Zip"
+	android:textColor="#ff0000"/>
+			<TextView
+		 android:layout_width="match_parent"
+    android:layout_height="match_parent"
+		android:id="@+id/txtcity_st_zip4"/>
+			</LinearLayout>
+		<LinearLayout
+			   android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+	<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	 android:text="Phone"
+	android:textColor="#ff0000"/>
+			<TextView
+		 android:layout_width="match_parent"
+    android:layout_height="match_parent"
+		android:id="@+id/txtPhone5"/>
+		</LinearLayout>
+			<LinearLayout
+			   android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+	<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	 android:text="WareId"
+	android:textColor="#ff0000"/>
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:id="@+id/txtWareId6"
+					android:layout_marginRight="0.0dp"
+					android:layout_marginLeft="0.0dp" />
+		</LinearLayout>
+
+		</LinearLayout>
+</android.support.v7.widget.CardView>
+	
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+	android:background="#008000"
+	 android:padding="20dp">
+     <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	 android:text="User"
+		android:layout_marginTop="20dp"
+		android:layout_marginLeft="10dp"
+	android:textColor="#ff0000"
+			android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+		<EditText
+		android:layout_marginTop="10dp"
+        android:id="@+id/edtEmp_Code"
+        android:layout_width="match_parent"
+        android:imeOptions="actionGo"
+        android:inputType="text"
+        android:layout_height="wrap_content"
+		 android:padding="5dip"
+		 android:hint="Emp_Code"
+	 android:background="@drawable/Rounded_entry"/>
+	 <Button
+		android:layout_marginTop="20dp"
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:text="Load"
+		android:width="100dp"
+  
+	 android:id="@+id/btnLoadDialogPost"
+	 android:layout_marginLeft="200dp"/>
+
+			
+
+
+
+
+</LinearLayout>

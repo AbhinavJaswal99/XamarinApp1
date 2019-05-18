@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="Theme.DesignDemo" parent="Base.Theme.DesignDemo">
+
+  </style>
+  <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">#2d5072</item>
+    <item name="colorPrimaryDark">#FFFFFF</item>
+    <!-- <item name="android:windowBackground">@color/window_background</item>-->
+      <item name="android:windowBackground">@drawable/SplashScreen1</item>
+ <!-- <item name="android:background">@drawable/SplashScreen</item>-->
+  </style>
+
+<style name="Theme.Splash" parent="android:Theme">  
+    <item name="android:windowBackground">@drawable/SplashScreen</item>  
+    <item name="android:windowNoTitle">true</item>  
+  </style>  
+</resources>

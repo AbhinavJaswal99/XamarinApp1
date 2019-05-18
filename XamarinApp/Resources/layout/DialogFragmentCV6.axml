@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="580dp"
+	android:padding="20dp"
+	 android:background="#FFB6C1"
+	>
+	<LinearLayout 
+			android:orientation="vertical"
+			android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+		
+		<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:text="STORE"
+					android:textColor="#008000"/>
+		<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+				 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:id="@+id/txt_StoreDialCV6"
+				android:textColor="#333333"/>
+		
+
+		<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:text="Cost Price "
+					android:textColor="#008000"/>
+		<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+				 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:id="@+id/txt_CostPriceDialCV6"
+				android:textColor="#333333"/>
+		<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:text="VendorName"
+					android:textColor="#008000"/>
+		<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+				 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:id="@+id/txt_VendorNameDialCV6"
+				android:textColor="#333333"/>
+		<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:text="CustomerName"
+					android:textColor="#008000"/>
+		<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+				 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:id="@+id/txt_CustomerNameDialCV6"
+				android:textColor="#333333"/>
+		<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:text="VendorContact"
+					android:textColor="#008000"/>
+		<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+				 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:id="@+id/txt_VendorContactDialCV6"
+				android:textColor="#333333"/>
+		<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:text="Selling Price"
+					android:textColor="#008000"/>
+		<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+				 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:id="@+id/txt_SellingPriceDialCV6"
+				android:textColor="#333333"/>
+		<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:text="Customer Contact"
+					android:textColor="#008000"/>
+		<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+				 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:id="@+id/txt_CustomerContactDialCV6"
+				android:textColor="#333333"/>
+		<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:text="Quantity"
+					android:textColor="#008000"/>
+		<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+				 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:id="@+id/txt_QuantityDialCV6"
+				android:textColor="#333333"/>
+		<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:text="Request By"
+					android:textColor="#008000"/>
+		<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+				 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:id="@+id/txt_RequestByDialCV6"
+				android:textColor="#333333"/>
+		<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:text="Status"
+					android:textColor="#008000"/>
+		<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+				 android:textAppearance="?android:attr/textAppearanceMedium"
+					android:id="@+id/txt_StatusDialCV6"
+				android:textColor="#333333"/>
+		<LinearLayout 
+			android:orientation="horizontal"
+			android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+		
+
+			 <Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:text="Accept"
+	    android:background="#008000"
+	 android:id="@+id/btnAcceptDialCV6"
+	 android:layout_marginRight="30dp"/>
+	    <Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:text="Reject"
+	    android:background="#B22222"
+	 android:id="@+id/btnrejectDialCV6"
+	 android:layout_marginLeft="70dp"/>
+
+			
+
+
+			</LinearLayout>
+		
+		
+		
+
+
+		</LinearLayout>
+
+</LinearLayout>

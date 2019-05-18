@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	 android:padding="12dp">
+	
+	
+
+	<EditText
+        android:id="@+id/txtSearch"
+        android:layout_width="match_parent"
+        android:imeOptions="actionGo"
+        android:inputType="text"
+        android:layout_height="wrap_content"
+		 android:padding="5dip"
+		 android:hint="Search"
+	 android:background="@drawable/Rounded_entry"/>
+
+	<Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:text="Search"
+	 android:id="@+id/btnSearch"
+	 android:layout_marginLeft="100dp"/>
+	 
+
+	<android.support.v7.widget.RecyclerView  
+    android:id="@+id/recyclerViewUIStoremin"  
+   
+		android:layout_marginTop="10dp"
+	 android:background = "@android:color/holo_red_light"
+    android:scrollbars="vertical"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"
+	/>  
+
+	
+
+</LinearLayout>

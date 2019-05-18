@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:padding="12dp">
+
+
+	 <TextView
+            android:text="From : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+		   
+       />
+	<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtxtfromUIRD" />
+	 <TextView
+            android:text="To : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+		   
+       />
+	<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtxttoUIRD" />
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+		 <Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:text="Load Store"
+	 android:id="@+id/btnLoadUIRD"
+	 android:layout_marginLeft="100dp"/>
+		</LinearLayout>
+		<android.support.v7.widget.RecyclerView  
+    android:id="@+id/RecyclerViewUIRD"  
+    
+	 android:background = "@android:color/holo_blue_dark"
+    android:scrollbars="vertical"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"
+	/>  
+</LinearLayout>

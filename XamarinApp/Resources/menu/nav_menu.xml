@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+    <item android:id="@+id/nav_UIStore"   android:icon="@drawable/ic_menu_slideshow"   android:title="Get Stores" />
+    <item android:id="@+id/nav_UIPostVendor" android:icon="@drawable/ic_menu_slideshow"  android:title="Save VendorPurchase" />
+    <item android:id="@+id/nav_UIStoreMinimum"  android:icon="@drawable/ic_menu_slideshow"  android:title="Search Inventory" />
+    <item android:id="@+id/nav_UIVendorPurchase" android:icon="@drawable/ic_menu_slideshow" android:title="VendorPurchase" />
+    <item android:id="@+id/nav_UIRecordDate"  android:icon="@drawable/ic_menu_slideshow"  android:title="Purchase Manager" />
+    <item android:id="@+id/nav_UIDetail" android:icon="@drawable/ic_menu_slideshow"  android:title="GetStores Detail" />
+  </group>
+</menu>
